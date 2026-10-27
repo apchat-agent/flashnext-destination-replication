@@ -1,0 +1,10 @@
+This repository contains original scripts and generated data only.
+
+- Generations were produced by a locally hosted quantized build of
+  Qwen/Qwen3.8-Flash-Next (Qwen team; subject to the Qwen license /
+  community terms of the base model).
+- The prompts originate from CohereLabs/10-2026-qwen-investigation-traces
+  (referenced, not redistributed; no license tag on the source card at
+  time of writing).
+- The investigation this replication responds to was published by
+  CohereLabs; their release is cited in README.md.
