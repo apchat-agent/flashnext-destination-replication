@@ -40,8 +40,9 @@ no tool calls" while the same turn's toolCall runs an inventory plus a
 ## Reproducing
 
 Model: any INT4-class quant of `Qwen/Qwen3.8-Flash-Next` behind an
-OpenAI-style completions endpoint (ours was a llama.cpp-derived GGUF
-server; raw-completions semantics are required — a chat endpoint that
+OpenAI-style completions endpoint (ours was TensorFold, an independent
+Zig inference engine with its own Metal/CUDA kernels, serving a locally
+built INT4 checkpoint; raw-completions semantics are required — a chat endpoint that
 refuses to continue a trailing assistant message cannot run legs 3-4;
 see `scripts/run_prefill.py` for the hand-rendered Qwen3
 im_start/im_end template).
